@@ -19,5 +19,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('test', function(){
-   return "Forgit TEST 333";
+   return "Forgit TEST";
+});
+Route::get('test2', function(){
+   return "Forgit TEST 222";
 });
