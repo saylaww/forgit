@@ -24,3 +24,6 @@ Route::get('test', function(){
 Route::get('test2', function(){
    return "Forgit TEST 222";
 });
+Route::get('test3', function(){
+   return "Forgit TEST 333";
+});
