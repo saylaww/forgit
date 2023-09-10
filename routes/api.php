@@ -25,5 +25,8 @@ Route::get('test2', function(){
    return "Forgit TEST 222";
 });
 Route::get('test3', function(){
-   return "Forgit TEST 333";
+   return "Forgit TEST 333 ISLEDI";
+});
+Route::get('test4', function(){
+   return "Forgit TEST 44444";
 });
